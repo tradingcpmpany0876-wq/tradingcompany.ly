@@ -8,25 +8,25 @@
         body, html { 
             height: 100%; margin: 0; display: flex; 
             justify-content: center; align-items: center; 
-            overflow: hidden; background-color: #1a1a1a; 
+            overflow: hidden; background-color: #000; 
         }
         .bg {
-            /* تم تعديل الاسم هنا ليتطابق تماماً مع صورتك المرفوعة */
+            /* تم وضع المسافة هنا لتطابق اسم ملفك: trading .jpeg */
             background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("trading .jpeg");
             height: 100vh; width: 100vw; 
             background-position: center; background-size: cover;
             position: fixed; top: 0; left: 0; z-index: -1;
         }
-        .container { text-align: center; color: white; font-family: sans-serif; }
+        .container { text-align: center; color: white; font-family: 'Arial', sans-serif; }
         .box { 
-            border: 2px solid rgba(255,255,255,0.8); 
-            padding: 40px 60px; background: rgba(0,0,0,0.5); 
-            backdrop-filter: blur(10px); border-radius: 10px;
+            border: 3px solid #fff; 
+            padding: 40px 60px; background: rgba(0,0,0,0.4); 
+            backdrop-filter: blur(10px); border-radius: 15px;
         }
         h1 { font-size: 3.5rem; margin: 0; }
-        .info { font-size: 1.5rem; margin-top: 20px; border-top: 1px solid rgba(255,255,255,0.3); padding-top: 20px; }
+        .info { font-size: 1.5rem; margin-top: 20px; border-top: 1px solid rgba(255,255,255,0.5); padding-top: 20px; }
         .location { 
-            background: #fff; color: #000; padding: 8px 25px; 
+            background: #fff; color: #000; padding: 5px 25px; 
             border-radius: 50px; display: inline-block; 
             margin-top: 20px; font-weight: bold; 
         }
@@ -38,7 +38,51 @@
         <div class="box">
             <h1>شركة التداول</h1>
             <div class="info">للاستيراد والتصدير والتوكيلات التجارية</div>
-            <div class="location">طرابلس - ليبيا</div>
+            <div class="location">المقر الرئيسي: طرابلس - ليبيا</div>
+        </div>
+    </div>
+</body>
+</html><!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شركة التداول للاستيراد والتصدير</title>
+    <style>
+        body, html { 
+            height: 100%; margin: 0; display: flex; 
+            justify-content: center; align-items: center; 
+            overflow: hidden; background-color: #000; 
+        }
+        .bg {
+            /* تم وضع المسافة هنا لتطابق اسم ملفك: trading .jpeg */
+            background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("trading .jpeg");
+            height: 100vh; width: 100vw; 
+            background-position: center; background-size: cover;
+            position: fixed; top: 0; left: 0; z-index: -1;
+        }
+        .container { text-align: center; color: white; font-family: 'Arial', sans-serif; }
+        .box { 
+            border: 3px solid #fff; 
+            padding: 40px 60px; background: rgba(0,0,0,0.4); 
+            backdrop-filter: blur(10px); border-radius: 15px;
+        }
+        h1 { font-size: 3.5rem; margin: 0; }
+        .info { font-size: 1.5rem; margin-top: 20px; border-top: 1px solid rgba(255,255,255,0.5); padding-top: 20px; }
+        .location { 
+            background: #fff; color: #000; padding: 5px 25px; 
+            border-radius: 50px; display: inline-block; 
+            margin-top: 20px; font-weight: bold; 
+        }
+    </style>
+</head>
+<body>
+    <div class="bg"></div>
+    <div class="container">
+        <div class="box">
+            <h1>شركة التداول</h1>
+            <div class="info">للاستيراد والتصدير والتوكيلات التجارية</div>
+            <div class="location">المقر الرئيسي: طرابلس - ليبيا</div>
         </div>
     </div>
 </body>
