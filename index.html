@@ -6,15 +6,28 @@
     <style>
         body, html { height: 100%; margin: 0; display: flex; justify-content: center; align-items: center; overflow: hidden; }
         .bg {
-            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("133884215500159259.jpg");
+            background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("133884215500159259.jpg");
             height: 100%; width: 100%; background-position: center; background-size: cover;
             position: absolute; z-index: -1;
         }
-        h1 { color: white; font-size: 5rem; border: 5px solid white; padding: 30px; font-family: 'Arial', sans-serif; text-shadow: 2px 2px 10px rgba(0,0,0,0.5); }
+        .container { text-align: center; color: white; font-family: 'Arial', sans-serif; }
+        .box { border: 5px solid white; padding: 20px 50px; background: rgba(0,0,0,0.2); backdrop-filter: blur(3px); }
+        h1 { font-size: 4rem; margin: 0; }
+        .info { font-size: 1.5rem; margin-top: 15px; font-weight: bold; letter-spacing: 1px; }
+        .details { font-size: 1.2rem; margin-top: 10px; opacity: 0.9; }
     </style>
 </head>
 <body>
     <div class="bg"></div>
-    <h1>شركة التداول</h1>
+    <div class="container">
+        <div class="box">
+            <h1>شركة التداول</h1>
+            <div class="info">للاستيراد والتصدير والخدمات التجارية</div>
+        </div>
+        <div class="details">
+            المقر الرئيسي: طرابلس - ليبيا <br>
+            هاتف: 091XXXXXXX | بريد: info@tradingcompany.ly
+        </div>
+    </div>
 </body>
 </html>
