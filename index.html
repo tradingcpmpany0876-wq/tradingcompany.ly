@@ -4,26 +4,55 @@
     <meta charset="UTF-8">
     <title>شركة التداول</title>
     <style>
-        body, html { 
-            height: 100%; margin: 0; padding: 0;
-            display: flex; flex-direction: column; 
-            justify-content: space-between; align-items: center; 
-            background-color: #000; font-family: 'Arial', sans-serif;
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
         }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+
         .bg {
-            background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("trading .jpeg");
-            height: 100vh; width: 100vw; background-position: center; background-size: cover;
-            position: fixed; top: 0; left: 0; z-index: -1;
+            position: fixed;
+            inset: 0;
+            background:
+                linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+                url("trading.jpeg") center / cover no-repeat;
+            z-index: -1;
         }
-        h1 { color: white; font-size: 5rem; margin-top: 50px; text-shadow: 2px 2px 15px #000; }
-        .activity { color: white; font-size: 2.8rem; font-weight: bold; text-shadow: 2px 2px 10px #000; text-align: center; }
-        footer { color: white; font-size: 1.8rem; margin-bottom: 50px; text-shadow: 1px 1px 5px #000; }
+
+        .content h1 {
+            font-size: 5rem;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 15px #000;
+        }
+
+        .activity {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 60px;
+            text-shadow: 2px 2px 10px #000;
+        }
+
+        footer {
+            font-size: 1.6rem;
+            text-shadow: 1px 1px 5px #000;
+        }
     </style>
 </head>
 <body>
     <div class="bg"></div>
-    <h1>شركة التداول</h1>
-    <div class="activity">للاستيراد والتصدير والخدمات التجارية</div>
-    <footer>طرابلس - ليبيا | هاتف: 00218911991313</footer>
+
+    <div class="content">
+        <h1>شركة التداول</h1>
+        <div class="activity">للاستيراد والتصدير والخدمات التجارية</div>
+        <footer>طرابلس - ليبيا | هاتف: 00218911991313</footer>
+    </div>
 </body>
 </html>
